@@ -1,0 +1,1 @@
+nodemon -x node index.js || (sleep 10; touch index.js)

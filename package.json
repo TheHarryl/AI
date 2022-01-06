@@ -1,0 +1,23 @@
+{
+	"name": "ai",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Harryl#8375",
+	"license": "ISC",
+	"dependencies": {
+		"google-dictionary-api": "^1.0.8"
+	},
+	"nodemonConfig": {
+		"ignore": [
+            "assets/commands/*.js",
+            "assets/functions.js",
+            "*.json",
+            "assets/databases/*.db"
+        ]
+	},
+	"private": true
+}
